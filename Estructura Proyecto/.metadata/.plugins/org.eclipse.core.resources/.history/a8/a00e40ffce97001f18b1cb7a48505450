@@ -1,0 +1,33 @@
+package Main;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+
+import modelo.Caracterizacion;
+import modelo.DatosBasicos;
+import services.EvaluadorCotizantes;
+
+import java.util.HashMap;
+
+
+
+
+                        public class Main {
+                            public static void main(String[] args) {
+                                // Ruta de los archivos CSV
+                                String datosBasicosFile = "C:/Users/SONY/Downloads/Estructura Proyecto/Proyecto final/src/files/datosbasicos.csv";
+                                String caracterizacionFile = "C:/Users/SONY/Downloads/Estructura Proyecto/Proyecto final/src/files/caracterizacion.csv";
+
+                                // Crear una instancia del EvaluadorCotizantes
+                                EvaluadorCotizantes evaluador = new EvaluadorCotizantes();
+
+                                // Cargar los datos desde los archivos CSV
+                                evaluador.cargarDatos(datosBasicosFile, caracterizacionFile);
+
+                                // Imprimir los resultados de la clasificación
+                                evaluador.imprimirResultados();
+                            }
+                        }

@@ -1,0 +1,4 @@
+id_cotizante,cedula,nombre,edad,genero,ciudad,semanasCotizadas,declaraRenta,fondoDePensiones,entidadPublica
+1,101,Juan Perez,65,M,Bogota,820,true,Porvenir,Armada
+2,102,Maria Lopez,30,F,Cali,120,true,Colfondos,Inpec
+3,103,Carlos Ruiz,28,M,Armenia,70,true,Old Mutual,Policía

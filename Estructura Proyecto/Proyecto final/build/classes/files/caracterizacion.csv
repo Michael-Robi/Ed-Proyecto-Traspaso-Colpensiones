@@ -1,0 +1,4 @@
+id_caracterizacion,cedula,nombre,entidadPublica,condecoraciones,hijosEntidadPublica,familiarPolicia,mayorEdadFamiliarPolicia,observacionesDisciplinarias,tipoInstitucionLegal,sanciones
+1,101,Juan Perez,Armada,true,true,true,true,true,observacionArmada,false
+2,102,Maria Lopez,Inpec,true,true,true,true,true,observacionInpec,false
+3,103,Carlos Ruiz,Minsalud,true,true,true,true,true,observacionPolicía,true
