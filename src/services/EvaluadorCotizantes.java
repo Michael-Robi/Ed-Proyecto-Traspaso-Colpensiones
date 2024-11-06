@@ -117,6 +117,7 @@ public class EvaluadorCotizantes {
         }
     }
 
+    //Validacion1 Definir El Cotizante por edad
     private void clasificarCotizante(Solicitante datos) {
         // L�gica para clasificar cotizantes
         
